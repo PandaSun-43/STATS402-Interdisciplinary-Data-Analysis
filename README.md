@@ -14,4 +14,31 @@ This project compares traditional machine learning (Random Forest, SVR) with spa
 - Install via: ```bash
 pip install -r requirements.txt
 
-## 
+## Data Preparation
+1. Place raw data files in /data/raw/ (SST, PAR, CHL, etc.)
+2. Run notebooks in order:
+   1_data.ipynb → 2_EDA.ipynb → 5_CreateVarFile.ipny → [3_GPR|4_GAM|6_MLModel].ipynb
+
+## How to Run
+1. For data matching and analysis: Run 1_data.ipynb and 2_EDA.ipynb
+2. For model training/prediction:
+
+GPR: Run 3_GPR.ipynb
+
+GAM: Run 4_GAM.ipynb
+
+Traditional ML: Run 6_MLModel.ipynb
+
+3. For visualizations:
+   
+Global maps are generated automatically in each notebook.
+
+Use 7_Figures.ipynb to combine plots.
+
+## Known Limitations
+1. Temporal resolution: Monthly averages may miss short blooms.
+2. Computational demand: GPR cost a lot in computation for global predictions.
+3. Data gaps: Points sparse in Southern Ocean.
+
+
+
