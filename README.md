@@ -1,4 +1,6 @@
 # STATS402-Interdisciplinary-Data-Analysis
+### A comparative study of statistical and machine learning approaches for modeling global marine nitrogen fixation, with emphasis on spatiotemporal structure and uncertainty quantification.
+
 Comparison of Spatio-Temporal Models (GPR/GAM) vs Traditional ML (LR/RF/SVR) for Nitrogen Fixation Prediction
 
 ## Project Description
