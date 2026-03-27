@@ -3,6 +3,12 @@
 
 Comparison of Spatio-Temporal Models (GPR/GAM) vs Traditional ML (LR/RF/SVR) for Nitrogen Fixation Prediction
 
+### 📄 Summary
+
+You can find the full slides here:  
+👉 [Download PDF](./STATS402_Final_Presentation.pdf)
+
+
 ## Project Description
 This project compares traditional machine learning (Random Forest, SVR) with spatio-temporal models (Gaussian Process Regression, Generalized Additive Models) to predict global oceanic N₂ fixation rates. It improves upon Tang et al. (2019) by:
 - Incorporating iron (Fe) as a new predictor
